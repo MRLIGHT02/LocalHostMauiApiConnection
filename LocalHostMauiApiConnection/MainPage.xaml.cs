@@ -16,7 +16,7 @@ namespace LocalHostMauiApiConnection
         private async void ApiCallButton_Clicked(object sender, EventArgs e)
         {
             var httpClient = new HttpClient();
-            var response = await httpClient.GetAsync("https://localhost:7061/WeatherForecast");
+            var response = await httpClient.GetAsync("https://tt4np094-7061.inc1.devtunnels.ms/WeatherForecast");
             var data = response.Content.ReadAsStringAsync();
 
         

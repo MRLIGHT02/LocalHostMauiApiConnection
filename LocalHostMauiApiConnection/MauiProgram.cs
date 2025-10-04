@@ -14,7 +14,7 @@ namespace LocalHostMauiApiConnection
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
-            builder.Services.AddHttpClient("api", httpClient => httpClient.BaseAddress = new Uri("https://localhost:7061/WeatherForecast"));
+          //  builder.Services.AddHttpClient("api", httpClient => httpClient.BaseAddress = new Uri("https://10.0.2.2:7061/WeatherForecast"));
 
 #if DEBUG
     		builder.Logging.AddDebug();
