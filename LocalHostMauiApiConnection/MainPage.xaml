@@ -25,10 +25,10 @@
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
             <Button
-                x:Name="CounterBtn"
-                Text="Click me" 
+                x:Name="ApiCallButton"
+                Text="Api Call" 
                 SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
+                Clicked="ApiCallButton_Clicked"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>

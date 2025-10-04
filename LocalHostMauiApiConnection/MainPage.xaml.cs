@@ -1,4 +1,6 @@
-﻿namespace LocalHostMauiApiConnection
+﻿using System.Threading.Tasks;
+
+namespace LocalHostMauiApiConnection
 {
     public partial class MainPage : ContentPage
     {
@@ -9,16 +11,16 @@
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object? sender, EventArgs e)
+      
+
+        private async void ApiCallButton_Clicked(object sender, EventArgs e)
         {
-            count++;
+            var httpClient = new HttpClient();
+            var response = await httpClient.GetAsync("https://localhost:7061/WeatherForecast");
+            var data = response.Content.ReadAsStringAsync();
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        
+                
         }
     }
 }
