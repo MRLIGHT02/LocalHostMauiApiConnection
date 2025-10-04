@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalHostMauiApiConnection", "LocalHostMauiApiConnection\LocalHostMauiApiConnection.csproj", "{C3BAEA9A-6DFE-439E-8394-9285926CC460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalHostMaui.Api", "LocalHostMaui.Api\LocalHostMaui.Api.csproj", "{120633DD-D5AA-4A6F-A2C2-9DD888AEF7BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3BAEA9A-6DFE-439E-8394-9285926CC460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BAEA9A-6DFE-439E-8394-9285926CC460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BAEA9A-6DFE-439E-8394-9285926CC460}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C3BAEA9A-6DFE-439E-8394-9285926CC460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BAEA9A-6DFE-439E-8394-9285926CC460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120633DD-D5AA-4A6F-A2C2-9DD888AEF7BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120633DD-D5AA-4A6F-A2C2-9DD888AEF7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120633DD-D5AA-4A6F-A2C2-9DD888AEF7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120633DD-D5AA-4A6F-A2C2-9DD888AEF7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C262588-6BFE-487F-9164-703ABA9F22E8}
+	EndGlobalSection
+EndGlobal
